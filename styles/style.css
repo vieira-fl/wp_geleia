@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    height: 0;
+    background-repeat: no-repeat;
+    background-size: 1200px 200px;
+}
+#logoPrincipal{
+    display: flex;
+    justify-content: center;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 10px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+div.espacamento{
+    padding: 10px 40px;
+}
+div a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    color: white;
+}
+
+/* https://cdn.pixabay.com/photo/2017/10/30/13/33/autumn-2902526__340.jpg */
