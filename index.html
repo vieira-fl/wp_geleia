@@ -3,32 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/slideshow.css">
     <title>Geléia da Vó Diva</title>
 </head>
 <body>
-    <header>
-        <div id="logoPrincipal">
-            <img src="./logos/onlinelogomaker-081820-0847-2511-2000-transparent.png" alt="Logo da Geléia da Vó Diva">
+    <div class="body-cover">     
+        <div id="body-container">
+            <header>
+                <nav>
+                    <div id="logoPrincipal">
+                        <img src="./logos/onlinelogomaker-081820-0847-2511-2000-transparent.png" alt="Logo da Geléia da Vó Diva">
+                    </div>
+                    <div class="menu">    
+                        <div class="espacamento">
+                            <a href="">Casa da Vó</a>
+                        </div>
+                        <div class="espacamento">
+                            <a href="">Histórias da Vó</a>
+                        </div>
+                        <div class="espacamento">
+                            <a href="">Geléias da Vó</a>
+                        </div>
+                        <div class="espacamento">
+                            <a href="">Zapzap da Vó</a>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+
+            <div class="slide-container">        
+                <div class="showSlide fade">
+                    <img src="https://cdn.pixabay.com/photo/2014/08/26/15/28/jam-428094_960_720.jpg" alt="porDoSol_1">
+                </div>
+                <div class="showSlide fade">
+                    <img src="https://cdn.pixabay.com/photo/2010/12/13/10/05/background-2277_960_720.jpg" alt="porDoSol_2">
+                </div>
+                <div class="showSlide fade">
+                    <img src="https://cdn.pixabay.com/photo/2019/10/02/14/09/jam-4521023_960_720.jpg" alt="porDoSol_3">
+                </div>
+                <div class="showSlide fade">
+                    <img src="https://cdn.pixabay.com/photo/2015/12/24/07/33/jam-1106592_960_720.jpg" alt="porDoSol_4">
+                </div>
+                <a class="left" onclick="proximaImagem(-1)">❮</a>  
+                <a class="right" onclick="proximaImagem(1)">❯</a>  
+            </div>
         </div>
-        <nav>
-            <div class="espacamento">
-                <a href="">Casa da Vó</a>
-            </div>
-            <div class="espacamento">
-                <a href="">Histórias da Vó</a>
-            </div>
-            <div class="espacamento">
-                <a href="">Geléias da Vó</a>
-            </div>
-            <div class="espacamento">
-                <a href="">Zapzap da Vó</a>
-            </div>
-        </nav>
-    </header>
-
-    
-
-    
+    </div>
+    <script type="text/javascript" src="slideshow.js"></script>
 </body>
 </html>
