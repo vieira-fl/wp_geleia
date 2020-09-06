@@ -1,0 +1,26 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    border: 1px solid violet;
+    align-content:center;
+    justify-content:space-around;
+}
+
+.grid-container > div {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+  }
+
+.product-display > img {
+    object-fit: fill;
+    width:150px;
+    height:auto;
+  }
+
+.product-name {
+    font-family: 'Crimson Text', serif;
+    font-size: 0.75em;
+    text-align: initial;
+}
